@@ -7,6 +7,6 @@ git add . --all
 
 git commit -m"$(date +%Y%m%d)"
 
-git push origin master 
-
 git tag -a v$1  -m "tag version $1" 
+
+git push origin master v$1
