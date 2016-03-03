@@ -6,8 +6,6 @@ LABEL name="CentOS Base Image" \
     license="GPLv2" \
     build-date="2016-02-17"
 
-# Volumes for systemd
-# VOLUME ["/run", "/tmp"]
 
 # Environment for systemd
 # ENV container=docker
